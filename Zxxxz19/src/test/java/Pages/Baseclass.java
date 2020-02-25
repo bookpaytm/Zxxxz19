@@ -34,7 +34,7 @@ public ExtentReports report;
 public ExtentTest logger;
 
 @BeforeSuite
-public void setsuite1(){
+public void setsuite(){
 	excel=new Exceldataprovider();
 	config=new Configuredataprovider();
 	report=new ExtentReports();
